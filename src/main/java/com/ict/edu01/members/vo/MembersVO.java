@@ -25,8 +25,8 @@ public class MembersVO {
     // @Log4j2: 로그 라이브러리 사용
     // @Log: 로그 라이브러리 사용
     
-    
-    private String m_idx, m_id, m_pw, m_name, m_addr, m_addr2, m_email, 
-    m_phone, m_reg, m_active, m_active_reg, sns_email_naver, sns_email_kakao, sns_provider;
+    private int m_idx;
+    private String m_id, m_pw, m_name, m_addr, m_addr2, m_email, m_phone, 
+    m_reg, m_active, m_active_reg, sns_email_naver, sns_email_kakao, sns_provider;
     
 }
